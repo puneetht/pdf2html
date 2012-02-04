@@ -1,0 +1,19 @@
+pdf2html is an easy to use ruby extension for the pdftohtml program
+
+It is used to convert pdf files into html
+
+Platforms
+This gem only works on linux and mac. I don't a compiled version of the pdftothml for windows. Adding such a file to the bin
+directory will enable support for windows.
+
+Installation
+
+gem install pdf2html :git => git://github.com:puneetht/pdf2html.git
+
+
+Usage
+
+require 'pdf2html'
+
+Pdf2Html::Pdf2Html.set_binary_path
+Pdf2Html::Pdf2Html.pdf2html("pdffile.pdf","outputfile.html")
