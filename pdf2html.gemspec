@@ -1,10 +1,10 @@
-require 'rubygems'
-require 'rake/packagetask'
-require 'rake/gempackagetask'
+#require 'rubygems'
+#require 'rake/packagetask'
+#require 'rake/gempackagetask'
 
 spec = Gem::Specification.new do |s|
   s.name = "pdf2html"
-  s.version = "0.1"
+  s.version = "0.2"
   s.authors = ["Puneet Paul"]
   s.email = "puneetpaul74@gmail.com"
   s.platform = Gem::Platform::RUBY

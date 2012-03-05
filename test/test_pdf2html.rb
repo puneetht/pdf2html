@@ -1,5 +1,5 @@
 require 'test/unit'
-require 'lib/pdf2html'
+require File.join(File.dirname(File.dirname(__FILE__)),"lib/pdf2html")
 
 class TestPdf2Html < Test::Unit::TestCase
   def setup
